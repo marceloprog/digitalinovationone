@@ -1,0 +1,129 @@
+description: null
+tags:
+  model_explain_run: best_run
+  _aml_system_automl_mltable_data_json: >-
+    {"Type":"MLTable","TrainData":{"Uri":"azureml://locations/eastus/workspaces/a14004f4-a879-46af-bc83-4a3b82a1314f/data/alugueldebicicletas/versions/1","ResolvedUri":null,"AssetId":null},"TestData":null,"ValidData":null}
+  _aml_system_automl_run_workspace_id: a14004f4-a879-46af-bc83-4a3b82a1314f
+  _aml_system_azureml.automlComponent: AutoML
+properties:
+  num_iterations: '3'
+  training_type: TrainFull
+  acquisition_function: EI
+  primary_metric: normalized_root_mean_squared_error
+  train_split: '0'
+  acquisition_parameter: '0'
+  num_cross_validation: ''
+  target: Serverless
+  AMLSettingsJsonString: >-
+    {"is_subgraph_orchestration":false,"is_automode":true,"path":"./sample_projects/mslearn-bike-rental","subscription_id":"5cc4d50b-2bf8-4f46-aa80-ee69391dd179","resource_group":"LABAI-900","workspace_name":"laboratorioai900","compute_target":"Serverless","iterations":3,"primary_metric":"normalized_root_mean_squared_error","task_type":"regression","IsImageTask":false,"IsTextDNNTask":false,"validation_size":0.1,"n_cross_validations":null,"preprocess":true,"is_timeseries":false,"time_column_name":null,"grain_column_names":null,"max_cores_per_iteration":-1,"max_concurrent_iterations":3,"max_nodes":1,"iteration_timeout_minutes":15,"enforce_time_on_windows":false,"experiment_timeout_minutes":15,"exit_score":"NaN","experiment_exit_score":"NaN","whitelist_models":["RandomForest","LightGBM"],"blacklist_models":null,"blacklist_algos":["TensorFlowDNN","TensorFlowLinearRegressor"],"auto_blacklist":false,"blacklist_samples_reached":false,"exclude_nan_labels":false,"verbosity":20,"model_explainability":false,"enable_onnx_compatible_models":false,"enable_feature_sweeping":false,"send_telemetry":true,"enable_early_stopping":true,"early_stopping_n_iters":20,"distributed_dnn_max_node_check":false,"enable_distributed_featurization":true,"enable_distributed_dnn_training":true,"enable_distributed_dnn_training_ort_ds":false,"ensemble_iterations":3,"enable_tf":false,"enable_cache":false,"enable_subsampling":false,"metric_operation":"minimize","enable_streaming":false,"use_incremental_learning_override":false,"force_streaming":false,"enable_dnn":false,"is_gpu_tmp":false,"enable_run_restructure":false,"featurization":"auto","vm_type":"Standard_DS3_v2","vm_priority":"dedicated","label_column_name":"rentals","weight_column_name":null,"miro_flight":"default","many_models":false,"many_models_process_count_per_node":0,"automl_many_models_scenario":null,"enable_batch_run":true,"save_mlflow":true,"track_child_runs":true,"test_include_predictions_only":false,"enable_mltable_quick_profile":"True","has_multiple_series":false,"_enable_future_regressors":false,"enable_ensembling":true,"enable_stack_ensembling":false,"ensemble_download_models_timeout_sec":300.0,"stack_meta_learner_train_percentage":0.2}
+  DataPrepJsonString: null
+  EnableSubsampling: 'False'
+  runTemplate: AutoML
+  azureml.runsource: automl
+  _aml_internal_automl_best_rai: 'False'
+  ClientType: Mfe
+  _aml_system_scenario_identification: Remote.Parent
+  PlatformVersion: DPV2
+  environment_cpu_name: AzureML-ai-ml-automl
+  environment_cpu_label: '38'
+  environment_gpu_name: AzureML-ai-ml-automl-gpu
+  environment_gpu_label: '38'
+  root_attribution: automl
+  attribution: AutoML
+  Orchestrator: AutoML
+  CancelUri: >-
+    https://eastus.api.azureml.ms/jasmine/v1.0/subscriptions/5cc4d50b-2bf8-4f46-aa80-ee69391dd179/resourceGroups/LABAI-900/providers/Microsoft.MachineLearningServices/workspaces/laboratorioai900/experimentids/c998d5a9-fb63-4fee-bdf5-fabf77f8f673/cancel/silver_screw_90m94gm23p
+displayName: silver_screw_90m94gm23p
+status: NotStarted
+experimentName: mslearn-bike-rental
+services:
+  Tracking:
+    jobServiceType: Tracking
+    port: null
+    endpoint: >-
+      azureml://eastus.api.azureml.ms/mlflow/v1.0/subscriptions/5cc4d50b-2bf8-4f46-aa80-ee69391dd179/resourceGroups/LABAI-900/providers/Microsoft.MachineLearningServices/workspaces/laboratorioai900?
+    status: null
+    errorMessage: null
+    properties: null
+    nodes: null
+  Studio:
+    jobServiceType: Studio
+    port: null
+    endpoint: >-
+      https://ml.azure.com/runs/silver_screw_90m94gm23p?wsid=/subscriptions/5cc4d50b-2bf8-4f46-aa80-ee69391dd179/resourcegroups/LABAI-900/workspaces/laboratorioai900
+    status: null
+    errorMessage: null
+    properties: null
+    nodes: null
+computeId: >-
+  /subscriptions/5cc4d50b-2bf8-4f46-aa80-ee69391dd179/resourceGroups/LABAI-900/providers/Microsoft.MachineLearningServices/workspaces/laboratorioai900/computes/Serverless
+isArchived: false
+identity: null
+componentId: null
+notificationSetting: null
+secretsConfiguration: {}
+jobType: AutoML
+resources:
+  instanceCount: 1
+  maxInstanceCount: null
+  instanceType: Standard_DS3_v2
+  locations: null
+  properties:
+    ComputeSpecification:
+      Automatic: true
+      InstancePriority: Dedicated
+  shmSize: 2g
+  dockerArgs: null
+environmentId: null
+environmentVariables: null
+taskDetails:
+  logVerbosity: Info
+  trainingData:
+    description: null
+    uri: >-
+      azureml://locations/eastus/workspaces/a14004f4-a879-46af-bc83-4a3b82a1314f/data/alugueldebicicletas/versions/1
+    mode: ReadOnlyMount
+    jobInputType: mltable
+  targetColumnName: rentals
+  limitSettings:
+    maxTrials: 3
+    trialTimeout: PT15M
+    timeout: PT15M
+    maxConcurrentTrials: 3
+    maxNodes: 1
+    maxCoresPerTrial: -1
+    exitScore: null
+    enableEarlyTermination: true
+    sweepTrials: 0
+    sweepConcurrentTrials: 0
+  sweepSettings: null
+  fixedParameters: null
+  searchSpace: null
+  nCrossValidations: null
+  cvSplitColumnNames: null
+  weightColumnName: null
+  validationData:
+    description: null
+    mode: ReadOnlyMount
+    jobInputType: mltable
+  testData: null
+  validationDataSize: 0.1
+  testDataSize: null
+  featurizationSettings: null
+  taskType: Regression
+  primaryMetric: NormalizedRootMeanSquaredError
+  trainingSettings:
+    enableOnnxCompatibleModels: false
+    stackEnsembleSettings: null
+    enableStackEnsemble: false
+    enableVoteEnsemble: true
+    ensembleModelDownloadTimeout: PT5M
+    enableModelExplainability: false
+    enableDnnTraining: false
+    trainingMode: Auto
+    allowedTrainingAlgorithms:
+      - RandomForest
+      - LightGBM
+    blockedTrainingAlgorithms: []
+outputs: {}
+queueSettings: null
