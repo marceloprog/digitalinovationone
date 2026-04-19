@@ -1,0 +1,14 @@
+D:\MarceloProjetos\DIO_Uaitec\C#\Projetos\trilha-net-poo-desafio\obj\Debug\net6.0\DesafioPOO.GeneratedMSBuildEditorConfig.editorconfig
+D:\MarceloProjetos\DIO_Uaitec\C#\Projetos\trilha-net-poo-desafio\obj\Debug\net6.0\DesafioPOO.AssemblyInfoInputs.cache
+D:\MarceloProjetos\DIO_Uaitec\C#\Projetos\trilha-net-poo-desafio\obj\Debug\net6.0\DesafioPOO.AssemblyInfo.cs
+D:\MarceloProjetos\DIO_Uaitec\C#\Projetos\trilha-net-poo-desafio\obj\Debug\net6.0\DesafioPOO.csproj.CoreCompileInputs.cache
+D:\MarceloProjetos\DIO_Uaitec\C#\Projetos\trilha-net-poo-desafio\bin\Debug\net6.0\DesafioPOO.exe
+D:\MarceloProjetos\DIO_Uaitec\C#\Projetos\trilha-net-poo-desafio\bin\Debug\net6.0\DesafioPOO.deps.json
+D:\MarceloProjetos\DIO_Uaitec\C#\Projetos\trilha-net-poo-desafio\bin\Debug\net6.0\DesafioPOO.runtimeconfig.json
+D:\MarceloProjetos\DIO_Uaitec\C#\Projetos\trilha-net-poo-desafio\bin\Debug\net6.0\DesafioPOO.dll
+D:\MarceloProjetos\DIO_Uaitec\C#\Projetos\trilha-net-poo-desafio\bin\Debug\net6.0\DesafioPOO.pdb
+D:\MarceloProjetos\DIO_Uaitec\C#\Projetos\trilha-net-poo-desafio\obj\Debug\net6.0\DesafioPOO.dll
+D:\MarceloProjetos\DIO_Uaitec\C#\Projetos\trilha-net-poo-desafio\obj\Debug\net6.0\refint\DesafioPOO.dll
+D:\MarceloProjetos\DIO_Uaitec\C#\Projetos\trilha-net-poo-desafio\obj\Debug\net6.0\DesafioPOO.pdb
+D:\MarceloProjetos\DIO_Uaitec\C#\Projetos\trilha-net-poo-desafio\obj\Debug\net6.0\DesafioPOO.genruntimeconfig.cache
+D:\MarceloProjetos\DIO_Uaitec\C#\Projetos\trilha-net-poo-desafio\obj\Debug\net6.0\ref\DesafioPOO.dll
